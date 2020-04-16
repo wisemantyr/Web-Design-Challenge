@@ -1,3 +1,16 @@
 .top-row {
     margin-top: 50px;
 }
+.citydata {
+padding-left: 100px;
+padding-bottom: 25px;
+}
+
+#datatable {
+    padding-left: 10%;
+}
+
+.plot-titles {
+    text-align: center;
+
+}
