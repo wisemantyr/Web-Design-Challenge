@@ -11,8 +11,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <!--- navbar start -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Home</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Weather Plotting Project</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,10 +29,10 @@
             Plots
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="vis1.html">Plot 1</a>
-            <a class="dropdown-item" href="vis2.html">Plot 2</a>
-            <a class="dropdown-item" href="vis3.html">Plot 3</a>
-            <a class="dropdown-item" href="vis4.html">Plot 4</a>
+            <a class="dropdown-item" href="temp.html">Temperature</a>
+            <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="humid.html">Humidity</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
           </div>
         </li>
       </ul>
@@ -44,8 +44,8 @@
   <div class = "container">
     <div class = "row plot-titles">
         <div class = "col-md-12 top-row">
-          <h1>Latitude vs. Humidity</h1>
-          <img src ="Visualizations/LatHumidPlot.png" alt="Humidity" class="top-row">
+          <h1>Latitude vs. Temperature</h1>
+          <img src ="Visualizations/LatTempPlot.png" alt="Temperature" class= "top-row image-border">
         </div>
     </div> <!-- end row-->
     <div class = "row plot-titles">
@@ -56,6 +56,28 @@
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div> <!-- end row-->
+    <div class = "row plot-titles top-row bottom-row">
+      <div class = "col-md-3 image-hover current-image">
+          <a href = "temp.html">
+          <img src ="Visualizations/LatTempPlot.png" alt="Temperature" height width = 80% class = "current-image">
+          </a>
+      </div>
+      <div class = "col-md-3 image-hover">
+          <a href = "cloud.html">
+          <img src ="Visualizations/LatCloudPlot.png" alt="Cloudiness" height width = 80%>
+          </a>
+      </div>
+      <div class = "col-md-3 image-hover">
+          <a href = "humid.html">
+          <img src ="Visualizations/LatHumidPlot.png" alt="Humidity" height width = 80%>
+          </a>
+      </div>
+      <div class = "col-md-3 image-hover">
+          <a href = "wind.html">
+          <img src ="Visualizations/LatWindPlot.png" alt="Wind" height width = 80%>
+          </a>
+      </div>
+  </div> <!-- end row-->
 </div> <!-- end container -->
 </body>
 </html>
