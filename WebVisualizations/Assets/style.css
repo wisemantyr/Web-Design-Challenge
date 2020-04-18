@@ -1,9 +1,5 @@
-.top-row {
+.top-spacing {
     margin-top: 50px;
-}
-.citydata {
-padding-left: 100px;
-padding-bottom: 25px;
 }
 
 #datatable {
@@ -15,7 +11,7 @@ padding-bottom: 25px;
 
 }
 #intro {
-    margin-left: 230px
+    margin-left: 70px
 }
 
 h1 {
@@ -24,16 +20,19 @@ h1 {
 }
 p {
     font-family: Calibri, Helvetica;
-    font-size: 20px
+    font-size: 18px
 }
 
+
 .image-border {
-    border: 4px solid black;
-    padding: 20px
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px
 }
 
 .image-hover:hover {
     border: 2px solid black;
+    border-radius: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -42,12 +41,13 @@ p {
     opacity: .5;
 }
 
-.bottom-row {
+.bottom-plots {
+    border-top: 1px solid black !important;
     padding-bottom: 50px;
     padding-top: 25px;
-    border-top: 1px solid black !important;
+    text-align: center
 }
 
-.table-bottom {
+.bottom-spacing {
     padding-bottom: 50px;
 }
