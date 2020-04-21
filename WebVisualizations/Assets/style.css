@@ -10,14 +10,13 @@
     text-align: center;
 
 }
-#intro {
-    margin-left: 70px
-}
 
 h1 {
     font-family: Georgia;
     border-bottom: 1px solid black !important;
 }
+
+
 p {
     font-family: Calibri, Helvetica;
     font-size: 18px
@@ -50,4 +49,23 @@ p {
 
 .bottom-spacing {
     padding-bottom: 50px;
+}
+
+.stats {
+    list-style-type: none;
+  }
+
+@media (max-width: 600px) {
+    .bottom-plots {
+        padding-left: 20%
+    }
+    p {
+        padding-left: 20%
+    }
+    h1 {
+        text-align: center
+    }
+    #datatable {
+        padding-left: 1%
+    }
 }
